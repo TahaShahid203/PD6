@@ -12,7 +12,7 @@ int main()
     
     cout << "Enter humidity: ";
     cin >> humidity;
-    if ((temperature != "cold" || temperature != "warm") || (humidity != "dry" || humidity != "humid"))
+    if ((temperature != "cold" && temperature != "warm") || (humidity != "dry" && humidity != "humid"))
     {
     
         cout << "That's not an option. Please restart." << endl;

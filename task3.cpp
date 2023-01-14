@@ -23,7 +23,7 @@ int main()
     cout << "Enter your month: ";
     cin >> month;
 
-    if (month != "January" && month != "Febuary" && month != "March" && month != "April" && month != "May" && month != "June" && month != "July" && month != "August" && month != "September" && month != "October" && month != "November" && month != "December")
+    if (month != "January" && month != "February" && month != "March" && month != "April" && month != "May" && month != "June" && month != "July" && month != "August" && month != "September" && month != "October" && month != "November" && month != "December")
     {
         cout << "That's not a month. Please restart" << endl;
         return 0;
@@ -42,7 +42,7 @@ int main()
         return 0;
     }
 
-    else if (month == "february" && date > 29)
+    else if (month == "February" && date > 29)
     {
         cout << "This month doesn't have these many days. Please restart" << endl;
         return 0;
